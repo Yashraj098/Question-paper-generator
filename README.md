@@ -40,4 +40,4 @@ This Django-based web application generates question papers based on specified c
 
 ## Deployed Version
 
-Access the deployed version of the project on [PythonAnywhere]().
+Access the deployed version of the project on [PythonAnywhere](https://Yashraj098.pythonanywhere.com/).
