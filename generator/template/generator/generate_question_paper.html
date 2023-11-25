@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Generate Question Paper</title>
+</head>
+<body style="display: flex; align-items: center; justify-content: center; height: 50vh; margin: -20px 0 0 0; flex-direction: column;">
+
+    <h1>Generate Question Paper</h1>
+
+    <form method="post" style="width: 50%; margin-left: 400px;">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" style="margin-left: 100px;">Generate Question Paper</button>
+    </form>
+
+</body>
+</html>

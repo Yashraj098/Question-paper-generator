@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question Paper</title>
+</head>
+<body  style="display: flex; align-items: center; justify-content: center;  margin:  auto ; flex-direction: column;"    >
+    <h1>Question Paper</h1>
+    <p>Total Marks: {{ total_marks }}</p>
+
+    {% for question in question_paper %}
+        <p>{{ question.question_text }} - {{ question.difficulty }} - {{ question.marks }} marks</p>
+    {% endfor %}
+</body>
+</html>
